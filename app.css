@@ -1,0 +1,29 @@
+.filter-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#list-container{
+    /* display: flex;
+    flex: 0 1 33.33%;
+    align-items: center;
+    justify-content: center; */
+}
+.item-grid{
+    display: inline-block;
+    width: 33.33%;
+    max-height: 100px;
+}
+.item-grid img{
+    width: 100%;
+}
+@media only screen  and (max-width:768px){
+    .item-grid{
+        width: 50%;
+    }
+}
+@media only screen  and (max-width:480px){
+    .item-grid{
+        width: 100%;
+    }
+}
